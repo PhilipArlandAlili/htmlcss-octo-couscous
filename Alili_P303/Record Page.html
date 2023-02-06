@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data</title>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            html, body {
+                display: flex;
+                justify-content: center;
+                min-height: 100%;
+                min-width: 100%;
+            }
+            h1 {
+                font-family: Calibri, sans-serif;
+                font-weight: bold;
+                color: white;
+                align-self: center;
+            }
+            body {
+                background: url(bgimage.jpg);
+                background-size: 100% 100%;
+            }
+            .card_container {
+                display: flex;
+                height: auto;
+                width: auto;
+            }
+            .card {
+                display: flex;
+                border-radius: 10px;
+                flex-direction: column;
+                min-width: 750px;
+                min-height: 400px;
+                margin: auto;
+                background-color: rgba(20, 75, 23, 0.636);
+                box-shadow: none;
+                padding: 10px;
+                -webkit-box-shadow: 0 0 10px rgb(0,0,0);
+                -moz-box-shadow: 0 0 10px rgb(0,0,0);
+            }
+            .content_continaer {
+                display: flex;
+                
+            }
+            table {
+                width: 100%;
+            }
+            table, th, td {
+                border: 1px solid #dadfe8;
+                border-collapse: collapse;
+                padding: 4px 5px 4px 5px
+            }
+
+            thead {
+                font-weight: bold;
+                text-align: center;
+                font-size: 1em;
+                background-color: #5fd477;
+            }
+            tr, td {
+                text-align: center;
+            }
+            tbody > tr:nth-child(even) {
+                background-color: #ffffff;
+                font-size: 0.95em;
+            }
+            tbody > tr:nth-child(odd) {
+                background-color: #e8f0fe;
+                font-size: 0.95em;
+            }
+            tbody > tr > td:nth-child(3) {
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card_container">
+            <div class="card">
+                <h1>Data</h1>
+                <div class="content_container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>No.</td>
+                                <td>Full Name</td>
+                                <td>Address</td>
+                                <td>Contact No.</td>
+                                <td>Temperature (°C)</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Jessica</td>
+                                <td>Sicsican</td>
+                                <td>09946772114</td>
+                                <td>34.4</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jan Ivn</td>
+                                <td>Sta. Lourdes</td>
+                                <td>099457762133</td>
+                                <td>35.2</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Marco</td>
+                                <td>Rizal Street</td>
+                                <td>09255783399</td>
+                                <td>35.8</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>John Clyde</td>
+                                <td>San Miguel</td>
+                                <td>099845678812</td>
+                                <td>36.0</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Milky</td>
+                                <td>Tinigueban</td>
+                                <td>313-452-9938</td>
+                                <td>35.9</td>
+                            </tr>
+
+                          </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
